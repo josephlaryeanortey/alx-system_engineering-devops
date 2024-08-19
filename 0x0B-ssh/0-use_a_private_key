@@ -1,4 +1,4 @@
-#!/bin/bash
-
-# Connect to the server using SSH with the private key
-ssh -i ~/.ssh/id_rsa ubuntu@100.25.204.134
+#!/usr/bin/env bash
+# A Bash script that uses ssh to connect to server using 
+# private key ~/.ssh/id_rsa with user ubuntu
+ssh ubuntu@100.25.204.134 -i ~/.ssh/id_rsa
